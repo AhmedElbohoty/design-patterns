@@ -10,6 +10,7 @@ import MediatorMiddlewarePattern from "src/MediatorMiddlewarePattern/MediatorMid
 import RenderPropsPattern from "src/RenderPropsPattern/RenderPropsPattern";
 import HooksPattern from "src/HooksPattern/HooksPattern";
 import HOCPattern from "src/HOCPattern/HOCPattern";
+import FlyweightPattern from "src/FlyweightPattern/FlyweightPattern";
 
 import "./App.css";
 
@@ -61,6 +62,10 @@ function App() {
       <hr />
 
       <HOCPattern />
+
+      <hr />
+
+      <FlyweightPattern />
     </>
   );
 }
