@@ -6,6 +6,7 @@ import ContainerPresentationalPattern from "src/ContainerPresentationalPattern/C
 import ObserverPattern from "src/ObserverPattern/ObserverPattern";
 import ModulePattern from "src/ModulePattern/ModulePattern";
 import MixinPattern from "src/MixinPattern/MixinPattern";
+import MediatorMiddlewarePattern from "src/MediatorMiddlewarePattern/MediatorMiddlewarePattern";
 
 import "./App.css";
 
@@ -41,6 +42,10 @@ function App() {
       <hr />
 
       <MixinPattern />
+
+      <hr />
+
+      <MediatorMiddlewarePattern />
     </>
   );
 }
