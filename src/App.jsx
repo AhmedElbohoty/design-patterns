@@ -12,6 +12,8 @@ import HooksPattern from "src/HooksPattern/HooksPattern";
 import HOCPattern from "src/HOCPattern/HOCPattern";
 import FlyweightPattern from "src/FlyweightPattern/FlyweightPattern";
 import FactoryPattern from "src/FactoryPattern/FactoryPattern";
+import CompoundPattern from "src/CompoundPattern/CompoundPattern";
+import CommandPattern from "src/CommandPattern/CommandPattern";
 
 import "./App.css";
 
@@ -71,6 +73,14 @@ function App() {
       <hr />
 
       <FactoryPattern />
+
+      <hr />
+
+      <CompoundPattern />
+
+      <hr />
+
+      <CommandPattern />
     </>
   );
 }
