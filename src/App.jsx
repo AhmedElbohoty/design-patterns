@@ -1,5 +1,6 @@
 import SingletonPattern from "src/SingletonPattern/SingletonPattern";
 import ProxyPattern from "src/ProxyPattern/ProxyPattern";
+import ProviderPattern from "src/ProviderPattern/ProviderPattern";
 
 import "./App.css";
 
@@ -9,6 +10,8 @@ function App() {
       <SingletonPattern />
 
       <ProxyPattern />
+
+      <ProviderPattern />
     </>
   );
 }

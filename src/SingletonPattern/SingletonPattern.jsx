@@ -22,6 +22,8 @@ function SingletonPattern() {
 
   return (
     <div className="singleton">
+      <p>SingletonPattern</p>
+      <p>Share a single global instance throughout our application</p>
       <div>
         <button onClick={onCLickInc}>Increment</button>
 

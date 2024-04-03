@@ -6,7 +6,12 @@ function ProxyPattern() {
   personProxy.age;
   personProxy.age = 9;
 
-  return <div className="proxy">ProxyPattern</div>;
+  return (
+    <div className="proxy">
+      <p>ProxyPattern</p>
+      <p>Share a single global instance throughout our application</p>
+    </div>
+  );
 }
 
 export default ProxyPattern;
