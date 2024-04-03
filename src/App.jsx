@@ -7,6 +7,7 @@ import ObserverPattern from "src/ObserverPattern/ObserverPattern";
 import ModulePattern from "src/ModulePattern/ModulePattern";
 import MixinPattern from "src/MixinPattern/MixinPattern";
 import MediatorMiddlewarePattern from "src/MediatorMiddlewarePattern/MediatorMiddlewarePattern";
+import RenderPropsPattern from "src/RenderPropsPattern/RenderPropsPattern";
 
 import "./App.css";
 
@@ -46,6 +47,10 @@ function App() {
       <hr />
 
       <MediatorMiddlewarePattern />
+
+      <hr />
+
+      <RenderPropsPattern />
     </>
   );
 }
