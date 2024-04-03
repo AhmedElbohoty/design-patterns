@@ -1,8 +1,6 @@
 // import singletonCounter from "src/SingletonPattern/singletonCounterClass";
 import { counter } from "src/SingletonPattern/singletonCounterObj";
 
-import "./style.css";
-
 function SingletonPattern() {
   function onCLickInc() {
     // singletonCounter.increment();
@@ -21,7 +19,7 @@ function SingletonPattern() {
   }
 
   return (
-    <div className="singleton">
+    <div className="pattern">
       <p>SingletonPattern</p>
       <p>Share a single global instance throughout our application</p>
       <div>

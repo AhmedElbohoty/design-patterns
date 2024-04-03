@@ -1,12 +1,10 @@
 import ThemeProvider from "src/ProviderPattern/ThemeProvider";
 import { useThemeContext } from "src/ProviderPattern/context";
 
-import "./style.css";
-
 function ProviderPattern() {
   return (
     <ThemeProvider>
-      <div className="provider">
+      <div className="pattern">
         <p>ProviderPattern</p>
         <p>Make data available to multiple child components</p>
         <Child />
