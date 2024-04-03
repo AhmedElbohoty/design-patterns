@@ -11,6 +11,7 @@ import RenderPropsPattern from "src/RenderPropsPattern/RenderPropsPattern";
 import HooksPattern from "src/HooksPattern/HooksPattern";
 import HOCPattern from "src/HOCPattern/HOCPattern";
 import FlyweightPattern from "src/FlyweightPattern/FlyweightPattern";
+import FactoryPattern from "src/FactoryPattern/FactoryPattern";
 
 import "./App.css";
 
@@ -66,6 +67,10 @@ function App() {
       <hr />
 
       <FlyweightPattern />
+
+      <hr />
+
+      <FactoryPattern />
     </>
   );
 }
