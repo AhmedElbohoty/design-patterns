@@ -7,9 +7,9 @@ function CommandPattern() {
       </p>
       <p>
         The command pattern allows us to decouple methods from the object that
-        executes the operation. It gives you more control if you're dealing with
-        commands that have a certain lifespan, or commands that should be queued
-        and executed at specific times.
+        executes the operation. It gives you more control if you are dealing
+        with commands that have a certain lifespan, or commands that should be
+        queued and executed at specific times.
       </p>
       <p>
         The use cases for the command pattern are quite limited, and often adds
