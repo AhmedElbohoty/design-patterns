@@ -30,9 +30,8 @@ dog2.bark();
 
 //
 
-const person = { name: "Ahmed" };
+// const person = { name: "Ahmed" };
+//  const p1 = Object.create(person);
 
-const p1 = Object.create(person);
-
-console.log(Object.keys(p1));
-console.log(p1.__proto__);
+// console.log(Object.keys(p1));
+// console.log(p1.__proto__);

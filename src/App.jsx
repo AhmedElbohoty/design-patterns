@@ -5,6 +5,7 @@ import PrototypePattern from "src/PrototypePattern/PrototypePattern";
 import ContainerPresentationalPattern from "src/ContainerPresentationalPattern/ContainerPresentationalPattern";
 import ObserverPattern from "src/ObserverPattern/ObserverPattern";
 import ModulePattern from "src/ModulePattern/ModulePattern";
+import MixinPattern from "src/MixinPattern/MixinPattern";
 
 import "./App.css";
 
@@ -13,17 +14,33 @@ function App() {
     <>
       <SingletonPattern />
 
+      <hr />
+
       <ProxyPattern />
+
+      <hr />
 
       <ProviderPattern />
 
+      <hr />
+
       <PrototypePattern />
+
+      <hr />
 
       <ContainerPresentationalPattern />
 
+      <hr />
+
       <ObserverPattern />
 
+      <hr />
+
       <ModulePattern />
+
+      <hr />
+
+      <MixinPattern />
     </>
   );
 }
