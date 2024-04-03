@@ -1,12 +1,10 @@
-import "./style.css";
-
 import { personProxy } from "src/ProxyPattern/proxy";
 
+import "./style.css";
+
 function ProxyPattern() {
-  console.log("=====");
-  const a = personProxy.age;
+  personProxy.age;
   personProxy.age = 9;
-  console.log("=====");
 
   return <div className="proxy">ProxyPattern</div>;
 }
